@@ -342,7 +342,7 @@ if __name__ == "__main__":
         PUSH_PLUS_MAX = get_int_value_default(config, 'PUSH_PLUS_MAX', 30)
         sleep_seconds = config.get('SLEEP_GAP')
         if sleep_seconds is None or sleep_seconds == '':
-            sleep_seconds = 5
+            sleep_seconds = 15
         sleep_seconds = float(sleep_seconds)
         users = config.get('USER')
         passwords = config.get('PWD')
