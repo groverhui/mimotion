@@ -39,4 +39,3 @@ jobs:
           git add .
           git commit -m "persist tokens trigger by workflow_dispatch" || echo "no changes to commit"
           git push origin master
-
